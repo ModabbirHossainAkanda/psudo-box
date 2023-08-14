@@ -21,6 +21,23 @@
         a:visited{
             color: red;
         }
+        li:first-child{
+            color: blue;
+        }
+        li:last-child{
+            background-color: red;
+        }
+        li:nth-child(2n+1){
+            color: orangered;
+        }
+        h3::before{
+            content: 'Hello ';
+        }
+        .special::after{
+            content: ' gello';
+            background-color: darkorchid;
+            font-size: 40px;
+        }
     </style>
 </head>
 <body>
@@ -36,5 +53,31 @@
     <a href="https://www.typing.com/">Typing a jao</a>
     <a href="https://www.complex.com/pop-culture/a/brenden-gallagher/20-websites-youll-never-visit-again">Never visited</a>
     <a href="https://www.babycenter.com/">baby site</a>
+    <br>
+    <h3>Middle size header-1</h3>
+    <h3 class="special">Middle size header-2</h3>
+    <h3>Middle size header-3</h3>
+    <h3>Middle size header-4</h3>
+    <h3 class="special">Middle size header-5</h3>
+    <h3>Middle size header-6</h3>
+
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Balia</li>
+        <li>Vanila</li>
+        <li>Mithila</li>
+        <li>Maria</li>
+        <li>Chariya</li>
+        <li>Jorina</li>
+        <li>Komola</li>
+        <li>Somola</li>
+        <li>Lalia</li>
+        <li>Laila</li>
+        <li>Komolia</li>
+        <li>Niria</li>
+        <li>Poria</li>
+    </ul>
 </body>
 </html>
